@@ -1,0 +1,93 @@
+body {
+  background: #f9f7fd;
+  margin: 8px;
+}
+.container {
+  border: 1px solid none;
+  border-radius: 10px;
+  background: #fff;
+  padding: 30px;
+  margin: 60px auto;
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  position: relative;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+header {
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #f9f7fe;
+}
+h1 {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+section {
+  padding: 30px 0;
+}
+section p {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 16px 0;
+}
+footer {
+  color: rgba(39, 33, 66, 0.4);
+  text-align: center;
+  margin: 15px 0 0 0;
+  border-top: 1px solid #f9f7fe;
+}
+footer a {
+  color: #885df1;
+}
+header .search-input {
+  width: 80%;
+  background: #f9f7fd;
+  color: rgba(39, 33, 66, 0.4);
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 6px;
+}
+header .search-button {
+  background: #885df1;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  line-height: 1;
+}
+section .current-forcast {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+section .current-humidity {
+  color: #f65282;
+}
+section .current-wind {
+  color: #f65282;
+}
+section .current-temperature {
+  font-size: 80px;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+section .current-weather-emoji {
+  font-size: 40px;
+  position: relative;
+  top: -10px;
+  right: -10px;
+}
+section .current-weather-degree-symbol {
+  font-size: 28px;
+  font-weight: lighter;
+  position: relative;
+  top: -40px;
+}
